@@ -13,6 +13,7 @@ export const BoardNavbar = async ({ data }: BoardNavbarProps) => {
       <div className="ml-auto">
         <BoardOptions id={data.id} />
       </div>
+      Board Navbar!
     </div>
   );
 };
